@@ -226,6 +226,7 @@ function Sidebar() {
             Historique des ordonnances
           </span>
         </Link>
+        */}
         <Link
           to="/ordonnances/termine"
           className={`flex hover:duration-200  hover:text-green-400 rounded-lg p-2 cursor-pointer border-2 border-transparent hover:border-white text-gray-200 text-sm items-center gap-x-4 
@@ -236,7 +237,7 @@ function Sidebar() {
             Ordonnances terminées
           </span>
         </Link>
-        */}
+        
         <Link
           to="/ordonnances/rapports"
           className={`flex hover:duration-200  hover:text-green-400 rounded-lg p-2 cursor-pointer border-2 border-transparent hover:border-white text-gray-200 text-sm items-center gap-x-4 
